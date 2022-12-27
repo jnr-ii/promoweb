@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/background0.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    height: auto;
+}
+
+p {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    cursor: pointer;
+    transition: 2s;
+}
+
+.sa {
+    transition: 4s;
+}
+
+h3 {
+    cursor: pointer;
+    transition: 8s;
+}
+
+h5 {
+    cursor: pointer;
+    transition: 12s;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: purple;
+    color: darkgray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.five {
+    background-color: #023047;
+    transition: 6s;
+    width: 150px;
+}
+
+.hire {
+    background-color: #8ecae6;
+    transition: 6s;
+    width: 150px;
+}
+
+.one {
+    background-color: #ffb703;
+    transition: 10s;
+    width: 150px;
+}
+
+.two {
+    background-color: #fb8500;
+    transition: 10s;
+    width: 150px;
+}
+
+@media screen and (min-width:320px) {
+    body {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        padding: 50px;
+
+    }
+}
+
+@media screen and (min-width:1440px) {
+    body {
+        padding: 150px;
+    }
+}
